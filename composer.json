@@ -1,0 +1,25 @@
+{
+    "name": "choccybiccy/decision",
+    "description": "A very simple decision engine.",
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Hughes",
+            "email": "martinph01@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Choccybiccy\\Decision\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Choccybiccy\\Decision\\": "tests/"
+        }
+    }
+}

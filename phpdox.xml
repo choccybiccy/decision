@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpdox xmlns="http://xml.phpdox.net/config" silent="false">
+    <project name="decision" source="${basedir}/src" workdir="${basedir}/build/phpdox">
+        <collector publiconly="false" backend="parser">
+            <include mask="*.php" />
+            <exclude mask="" />
+        </collector>
+        <generator output="${basedir}/build">
+            <build engine="html" enabled="true" output="api">
+                <file extension="html" />
+            </build>
+        </generator>
+    </project>
+</phpdox>
