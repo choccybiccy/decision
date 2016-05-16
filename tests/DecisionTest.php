@@ -31,7 +31,8 @@ class DecisionTest extends TestCase
     public function testGetWinner()
     {
         $decision = new Decision($this->getScores());
-        $this->assertEquals(array_shift(array_flip($this->getScoresTotalled())), $decision->getWinner());
+        $scores = array_flip($this->getScoresTotalled();
+        $this->assertEquals(array_shift($scores)), $decision->getWinner());
     }
 
     /**
