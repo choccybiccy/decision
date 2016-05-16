@@ -51,7 +51,7 @@ class Decision
      */
     public function getWinner()
     {
-        $scores = array_flip$this->getScores());
+        $scores = array_flip($this->getScores());
         return array_shift($scores);
     }
 

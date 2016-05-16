@@ -8,7 +8,8 @@
          processIsolation="false"
          stopOnFailure="false"
          syntaxCheck="false"
-         bootstrap="./vendor/autoload.php">
+         bootstrap="./vendor/autoload.php"
+         strict="true">
     <testsuites>
         <testsuite name="Main test suite">
             <directory>./tests</directory>
