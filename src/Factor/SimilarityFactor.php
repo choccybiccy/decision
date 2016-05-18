@@ -36,7 +36,7 @@ class SimilarityFactor implements FactorInterface
      */
     public function score($value)
     {
-        if (!is_scalar($value) || !is_scalar($value)) {
+        if (!is_scalar($value) || !is_scalar($this->value)) {
             return 0;
         }
         if ($value == $this->value) {

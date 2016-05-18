@@ -13,6 +13,7 @@ _TODO_
 * [x] 'similarity' factor
 * [x] 'occurences' factor
 * [x] 'regex' factor
+* [ ] 'comparison' factor
 * [ ] Unit tests
 * [ ] README
 
